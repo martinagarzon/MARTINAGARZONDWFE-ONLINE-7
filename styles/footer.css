@@ -1,0 +1,56 @@
+    .footer {
+        position: relative;
+        top: 6rem;
+        display: flex;
+        height: 4rem;
+        align-items: center;
+    }
+
+    .footer-description {
+        display: inline;
+        margin-left: 2rem;
+        font-size: 1.6rem;
+    }
+
+    .social {
+        position: absolute;
+        right: 2rem;
+    }
+
+    .footer-social {
+        display: inline;
+        margin: 1rem;
+        cursor: pointer;
+        transition: all .3s ease;
+    }
+
+    a.footer-social:hover {
+        fill: #00F3BB;
+    }
+
+
+    @media screen and (max-width: 60rem) {
+        .footer {
+            display: flex;
+            justify-content: center;
+            align-content: center;
+            flex-direction: column;
+            top: 29rem;
+
+        }
+
+        .footer-description {
+            display: block;
+            font-size: 2rem;
+            margin-bottom: 2rem;
+        }
+
+        .social {
+            flex-wrap: wrap;
+            width: 80%;
+            display: flex;
+            justify-content: space-around;
+            top: 4rem;
+        }
+
+    }

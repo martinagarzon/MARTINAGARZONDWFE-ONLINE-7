@@ -1,0 +1,43 @@
+@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:wght@200&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:wght@200&display=swap');
+
+@import "./header.css";
+@import './ep-container.css';
+@import './story.css';
+@import './gallery.css';
+@import './topics.css';
+@import './footer.css';
+@import "/styles/blue-container-2.css";
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: 'IBM Plex Sans', sans-serif;
+    font-family: 'IBM Plex Mono', monospace;
+}
+
+.container {
+    margin: 0 auto;
+    max-width: 120rem;
+    display: flex;
+    flex-direction: column;
+}
+
+.header,
+.intro,
+.ep-container,
+.story,
+.gallery,
+.topics,
+.blue-container-2,
+.footer {
+    position: relative;
+    width: 100%;
+    margin: 0 auto;
+    max-width: 1250px;
+}
+
+html {
+    font-size: 62.5%;
+}

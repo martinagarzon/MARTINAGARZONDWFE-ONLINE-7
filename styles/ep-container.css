@@ -1,0 +1,72 @@
+.ep-container {
+    max-width: 100%;
+}
+
+.blue-container {
+    background: linear-gradient(-90deg, #0000FF, #0000A3);
+    height: 1042px;
+    width: 100%;
+    clip-path: polygon(0 13%, 100% 0%, 100% 78%, 0 92%);
+    position: absolute;
+    top: 0%;
+    z-index: -2;
+}
+
+.title-white {
+    font-family: 'IBM Plex Sans', sans-serif;
+    color: #FFFFFF;
+    font-size: 48px;
+    margin-top: 15rem;
+    margin-left: 2rem;
+    z-index: 2;
+}
+
+.spotify {
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    justify-content: space-evenly;
+}
+
+.ep1,
+.ep2,
+.ep3,
+.ep4 {
+    display: flex;
+    width: 56rem;
+    height: 25rem;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-content: center;
+
+
+}
+
+@media only screen and (max-width: 60rem) {
+    .ep-container {
+        width: 100%;
+    }
+
+    .blue-container {
+        height: 148rem;
+        width: 100%;
+        clip-path: polygon(0 7%, 100% 0%, 100% 84%, 0% 100%);
+    }
+
+    .title-white {
+        margin-top: 7rem;
+    }
+
+    .ep1,
+    .ep2,
+    .ep3,
+    .ep4 {
+        max-width: 35rem;
+        height: 25rem;
+        display: flex;
+        flex-direction: column;
+    }
+}
