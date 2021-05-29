@@ -118,6 +118,13 @@ p.copy {
 
 @media only screen and (max-width: 60rem) {
 
+    h1,
+    h3,
+    p.copy,
+    .button{
+        margin-left: 2rem;
+    }
+
     .nav-bar {
         align-items: center;
         justify-content: left;
@@ -248,4 +255,5 @@ p.copy {
         flex-direction: row;
         padding: 5rem;
     }
+
 }
