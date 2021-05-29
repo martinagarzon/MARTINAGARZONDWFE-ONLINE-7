@@ -24,8 +24,8 @@
         transition: all .3s ease;
     }
 
-    a.footer-social:hover {
-        fill: #00F3BB;
+    img .footer-social :hover {
+        transform: scale(1.5);
     }
 
 
@@ -36,7 +36,6 @@
             align-content: center;
             flex-direction: column;
             top: 29rem;
-
         }
 
         .footer-description {
@@ -47,10 +46,14 @@
 
         .social {
             flex-wrap: wrap;
-            width: 80%;
+            width: 100%;
+            left: 0;
             display: flex;
-            justify-content: space-around;
+            justify-content: center;
             top: 4rem;
         }
 
+        .footer-social {
+            margin: 1.5rem;
+        }
     }

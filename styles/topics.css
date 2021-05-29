@@ -54,12 +54,11 @@ p.icon {
         justify-content: center;
         align-items: center;
         width: 100%;
-        height: 100rem;
-        top: 35rem;
+        top: 30rem;
     }
 
     .title-black #topics {
-        margin-bottom: 3rem;
+        margin: 3rem 0rem;
     }
 
     .icons {
@@ -71,26 +70,33 @@ p.icon {
     }
 
     .icons-wrapper {
-        width: 18rem;
-        margin-bottom: 2rem;
+        width: 25rem;
+        margin-bottom: 4rem;
     }
+    .icons-wrapper img{
+    width: 14rem;
+}
 
     .icon-1,
     .icon-2,
     .icon-4 {
         margin: 2rem;
-        height: 12rem;
+        height: 18rem;
         align-content: center;
     }
 
     .icon-3 {
         margin-top: 3rem;
+        height: 18rem;
     }
 
     p.icon {
-        font-size: 2rem;
+        font-size: 2.6rem;
+        font-family: 'IBM Plex Sans', sans-serif;
         text-align: center;
         align-items: center;
+        margin-top: 2rem;
+        width: 22rem;
     }
 
 }

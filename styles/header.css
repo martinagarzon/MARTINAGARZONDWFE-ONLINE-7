@@ -1,17 +1,23 @@
+.logo {
+    display: flex;
+    height: 8rem;
+    width: 10%;
+    align-items: center;
+    justify-content: center
+}
+
+.logo- {
+    height: 3.6rem;
+    width: 3.6rem;
+}
+
 .nav-bar {
     height: 8rem;
-    max-width: 125rem;
     display: flex;
     align-items: center;
     justify-content: flex-end;
     z-index: 100;
-}
-
-.logo {
-    display: flex;
-    margin-left: 3rem;
-    height: 3.6rem;
-    margin-top: 0.5rem;
+    padding: 0;
 }
 
 .flex-nav {
@@ -21,6 +27,9 @@
     justify-content: flex-end;
     flex-direction: row;
     padding: 5rem;
+    top: -15rem;
+    width: 90%;
+
 }
 
 
@@ -108,12 +117,26 @@ p.copy {
 
 
 @media only screen and (max-width: 60rem) {
+
+    .nav-bar {
+        align-items: center;
+        justify-content: left;
+    }
+
+    .logo {
+        display: flex;
+        height: 8rem;
+        justify-content: center;
+        width: 25%;
+    }
+
     .burguer-menu {
         display: flex;
     }
 
     .navbar__menu {
-        top: 4rem;
+        top: 7rem;
+        left: 0;
         display: block;
         position: fixed;
         transform: translateX(200%);
@@ -133,7 +156,7 @@ p.copy {
         color: white;
     }
 
-    .nav-bar {
+    .flex-nav {
         display: none;
     }
 
@@ -157,10 +180,12 @@ p.copy {
 
     .navbar__button {
         position: absolute;
-        right: 2rem;
+        right: 3rem;
+        top: 2.5rem;
         cursor: pointer;
-        width: 2.4rem;
-        height: 2.4rem;
+        width: 3rem;
+        height: 3rem;
+        align-items: center;
     }
 
     .burguer-menu {
@@ -172,7 +197,6 @@ p.copy {
         width: 100%;
         height: 100%;
         position: relative;
-        top: -4rem;
     }
 
     .line {
