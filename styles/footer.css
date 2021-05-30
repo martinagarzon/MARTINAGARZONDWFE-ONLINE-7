@@ -35,7 +35,7 @@
             justify-content: center;
             align-content: center;
             flex-direction: column;
-            top: 29rem;
+            /* top: 29rem; */
         }
 
         .footer-description {

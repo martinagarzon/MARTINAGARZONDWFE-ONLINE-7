@@ -35,7 +35,8 @@
     .gallery {
         display: block;
         align-content: center;
-        height: 175rem;
+        /* height: 175rem; */
+        height: auto;
         top: 10rem;
     }
 
@@ -47,5 +48,11 @@
     .images- {
         display: block;
         width: 100%;
+    }
+}
+
+@media screen and (max-width: 96rem){
+    .gallery{
+        height: auto;
     }
 }

@@ -1,6 +1,7 @@
 .topics {
     position: relative;
     align-content: center;
+    height: auto;
 }
 
 .title-black #topics {
@@ -47,14 +48,14 @@ p.icon {
     justify-items: center;
 }
 
-@media screen and (max-width: 60rem) {
+@media screen and (max-width: 600px) {
     .topics {
         display: flex;
         flex-direction: column;
         justify-content: center;
         align-items: center;
         width: 100%;
-        top: 30rem;
+        top: 10rem;
     }
 
     .title-black #topics {
@@ -101,6 +102,11 @@ p.icon {
 
 }
 
-@media screen and (max-width: 60rem){
-
+ @media screen and (max-width: 96rem){ 
+    .topics {
+        position: relative;
+        align-content: center;
+        top: 8rem;
+    }
+   
 }
